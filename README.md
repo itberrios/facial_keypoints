@@ -27,7 +27,7 @@ The training data was augmented with rotations and color jitter to help the mode
 
 The first 10 epochs of training were on lightly augmented data (i.e. minor color jitter, minimal random rotations, resize and crop transforms unlikely to remove portions of faces).
 
-The final 50 epochs were training on more heavily augmented data (i.e. larger color jitter, +/1 180 degree random rotations, resize and crop transforms likely to remove portions of faces).
+The final 50 epochs were trained on more heavily augmented data (i.e. larger color jitter, +/1 180 degree random rotations, resize and crop transforms likely to remove portions of faces).
 
 Future work could involve fine tuning the model on some even more heavily augmented data. Image warping (along with keypoint transformation) would be a good addition to the already augmented data. Another approach would be to modify the pipeline by first using a Haar face detector to crop the face from each image, and then apply the facial keypoint model to the cropped image. This would provide a more consistent distribution/space/domain for the model to learn instead of having to learn keypoints at a variety of distances. This consistent domain for the model to learn may increase accuracy and consistency (i.e. less random flucuations of keypoint locations). However the pipeline now involves a Haar face detector that requires parameter tuning. An alternative approach would be to use the opencv2 Face dnn instead.
 
