@@ -3,11 +3,11 @@
 [//]: # (Image References)
 
 [image1]: images/key_pts_example.png "Facial Keypoint Detection"
-![image1]:(images/key_pts_example.png) "Facial Keypoint Detection"
-![image1]: (https://github.com/blueeagle100/facial_keypoints/images/key_pts_example.png)
+[image2]: images/landmarks_numbered.jpg "Numbered Keypoint Landmarks"
+
 
 ## Project Overview
-For this project we will use the youtube faces dataset to train a model to learn 68 distinct keypoints upon a face. The trained model is then used to create some interesting face filters, using the locations of the eyes, nose, mouth, and jawline. 
+For this project we will use the youtube faces dataset to train a model to learn 68 distinct landmarks upon a face. The trained model is then used to create some interesting face filters, using the locations of the eyes, nose, mouth, and jawline. 
 
 
 ## Approach
@@ -18,14 +18,14 @@ Some early experimenting with Convolutional Neural Networks (CNNs) trained from 
 ## Results
 Some validation results from the trained model are shown below:
 
-[image2]: /images/keypoint_results/result_1.PNG
-[image3]: /images/keypoint_results/result_2.PNG
-[image4]: /images/keypoint_results/result_3.PNG
+[image3]: images/keypoint_results/result_1.PNG
+[image4]: images/keypoint_results/result_2.PNG
+[image5]: images/keypoint_results/result_3.PNG
 
 The trained model is able to identify facial keypoints in the validation set fairly well. Even when the face is not directly captured, the model is able to line up the key points with decent accuracy.
 
 The results from a webcam capture are shown below
 
-[image5]: /images/keypoints.gif
+[image6]: /images/keypoints.gif
 
 In this case, the model tends to extend the jawline outside of the face, but follows the face as it moves throughout the frame.
