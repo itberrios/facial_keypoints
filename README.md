@@ -2,19 +2,18 @@
 
 [//]: # (Image References)
 
-![image1](images/key_pts_example.png) "Facial Keypoint Detection"
-
-<center><img src='images/key_pts_example.png' width=80% height=80%/></center>
-<center>Facial Keypoint Detection</center>
 
 <p align="center">
   <img src='images/key_pts_example.png' width=80% height=80% />
-  < Facial Keypoint Detection />
+  <em> Facial Keypoint Detection </em>
 </p>
 
 
-<center><img src='images/landmarks_numbered.jpg' width=40% height=40%/></center>
-<center>Numbered Keypoint Landmarks</center>
+<p align="center">
+  <img src='images/landmarks_numbered.jpg' width=50% height=50% />
+  <em> Numbered Keypoint Landmarks </em>
+</p>
+
 
 
 ## Project Overview
