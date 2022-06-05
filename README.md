@@ -7,6 +7,12 @@
 <center><img src='images/key_pts_example.png' width=80% height=80%/></center>
 <center>Facial Keypoint Detection</center>
 
+<p align="center">
+  <img src='images/key_pts_example.png' width=80% height=80% />
+  < Facial Keypoint Detection />
+</p>
+
+
 <center><img src='images/landmarks_numbered.jpg' width=40% height=40%/></center>
 <center>Numbered Keypoint Landmarks</center>
 
