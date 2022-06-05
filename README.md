@@ -5,13 +5,11 @@
 
 <p align="center">
   <img src='images/key_pts_example.png' width=80% height=80% />
-  <center> Facial Keypoint Detection </center>
 </p>
 
 
 <p align="center">
   <img src='images/landmarks_numbered.jpg' width=50% height=50% />
-  Numbered Keypoint Landmarks
 </p>
 
 
@@ -36,6 +34,12 @@ The trained model is able to identify facial keypoints in the validation set fai
 
 The results from a webcam capture are shown below
 
-[image6]: /images/keypoints.gif
+![image6](/images/keypoints.gif)
 
 In this case, the model tends to extend the jawline outside of the face, but follows the face as it moves throughout the frame.
+
+## Face filters
+
+An basic 'snapchat' googly orange filter was built using the key points which can be seen below
+
+![image7](/images/orange.gif)
