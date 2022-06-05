@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src='images/key_pts_example.png' width=80% height=80% />
-  <em> Facial Keypoint Detection </em>
+  <center> Facial Keypoint Detection </center>
 </p>
 
 
