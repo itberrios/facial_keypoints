@@ -2,9 +2,8 @@
 
 [//]: # (Image References)
 
-![image1]./images/key_pts_example.png
-![image1]images/key_pts_example.png "Facial Keypoint Detection"
-![image2](images/landmarks_numbered.jpg) "Numbered Keypoint Landmarks"
+![image1](images/key_pts_example.png = 250x250) "Facial Keypoint Detection"
+![image2](images/landmarks_numbered.jpg = 250x250) "Numbered Keypoint Landmarks"
 
 
 ## Project Overview
@@ -19,9 +18,9 @@ Some early experimenting with Convolutional Neural Networks (CNNs) trained from 
 ## Results
 Some validation results from the trained model are shown below:
 
-[image3]: images/keypoint_results/result_1.PNG
-[image4]: images/keypoint_results/result_2.PNG
-[image5]: images/keypoint_results/result_3.PNG
+![image3](images/keypoint_results/result_1.PNG)
+![image4](images/keypoint_results/result_2.PNG)
+[image5](images/keypoint_results/result_3.PNG)
 
 The trained model is able to identify facial keypoints in the validation set fairly well. Even when the face is not directly captured, the model is able to line up the key points with decent accuracy.
 
