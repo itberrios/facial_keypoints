@@ -2,8 +2,9 @@
 
 [//]: # (Image References)
 
-![image1]: images/key_pts_example.png "Facial Keypoint Detection"
-![image2]: (images/landmarks_numbered.jpg) "Numbered Keypoint Landmarks"
+![image1]./images/key_pts_example.png
+![image1]images/key_pts_example.png "Facial Keypoint Detection"
+![image2](images/landmarks_numbered.jpg) "Numbered Keypoint Landmarks"
 
 
 ## Project Overview
