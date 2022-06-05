@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src='images/landmarks_numbered.jpg' width=50% height=50% />
-  <em> Numbered Keypoint Landmarks </em>
+  Numbered Keypoint Landmarks
 </p>
 
 
