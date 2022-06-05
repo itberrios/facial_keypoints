@@ -3,8 +3,12 @@
 [//]: # (Image References)
 
 ![image1](images/key_pts_example.png) "Facial Keypoint Detection"
-![image2](images/landmarks_numbered.jpg) "Numbered Keypoint Landmarks"
-<center><img src='images/landmarks_numbered.jpg' width=30% height=30%/></center>
+
+<center><img src='images/key_pts_example.png' width=80% height=80%/></center>
+<center>Facial Keypoint Detection</center>
+
+<center><img src='images/landmarks_numbered.jpg' width=40% height=40%/></center>
+<center>Numbered Keypoint Landmarks</center>
 
 
 ## Project Overview
