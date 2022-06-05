@@ -29,7 +29,9 @@ The first 10 epochs of training were on lightly augmented data (i.e. minor color
 
 The final 50 epochs were trained on more heavily augmented data (i.e. larger color jitter, +/1 180 degree random rotations, resize and crop transforms likely to remove portions of faces).
 
-Future work could involve fine tuning the model on some even more heavily augmented data. Image warping (along with keypoint transformation) would be a good addition to the already augmented data. Another approach would be to modify the pipeline by first using a Haar face detector to crop the face from each image, and then apply the facial keypoint model to the cropped image. This would provide a more consistent distribution/space/domain for the model to learn instead of having to learn keypoints at a variety of distances. This consistent domain for the model to learn may increase accuracy and consistency (i.e. less random flucuations of keypoint locations). However the pipeline now involves a Haar face detector that requires parameter tuning. An alternative approach would be to use the opencv2 Face dnn instead.
+Future work could involve fine tuning the model on some even more heavily augmented data. Image blurring and Image warping (along with keypoint transformation) would be good additions to the already augmented data. Another approach would be to modify the pipeline by first using a Haar face detector to crop the face from each image, and then apply the facial keypoint model to the cropped image. This would provide a more consistent distribution/space/domain for the model to learn instead of having to learn keypoints at a variety of distances. This consistent domain for the model to learn may increase accuracy and consistency (i.e. less random flucuations of keypoint locations). However the pipeline now involves a Haar face detector that requires parameter tuning. An alternative approach would be to use the opencv2 Face dnn instead.
+
+Another simple update to the pipline would be to add histogram equaliztion (via YUV color space) to better account for different lighting conditions.
 
 
 ## Results
@@ -47,7 +49,7 @@ Some validation results from the trained model are shown below:
 
 The truth keypoints are in green and the predicted keypoints are in purple
 
-The trained model is able to identify facial keypoints in the validation set fairly well. Even when the face is not directly captured, the model is able to line up the key points with decent accuracy, although it isn't very consistent with this. 
+The trained model is able to consistently identify facial keypoints in the validation images under a variety of lighting conditions. Even when the face is not directly captured, the model is able to line up the key points with decent accuracy, although it isn't very consistent with this. 
 
 The results from a webcam capture are shown below
 
