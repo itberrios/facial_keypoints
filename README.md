@@ -15,7 +15,7 @@
 
 
 ## Project Overview
-For this project we will use the youtube faces dataset to train a model to learn 68 distinct landmarks upon a face. The trained model is then used to create some interesting face filters, using the locations of the eyes, nose, mouth, and jawline. 
+This project is an extension of the Facial Keypoint project from Udacity's COmputer Vision Nanodegree. For this project we will use the youtube faces dataset to train a model to learn 68 distinct landmarks upon a face. The trained model is then used to create some interesting face filters, using the locations of the eyes, nose, mouth, and jawline. 
 
 
 ## Approach
@@ -64,3 +64,6 @@ An basic 'snapchat' filter of a googly orange was built using the key points whi
 ![image12](images/orange.gif)
 
 
+#### Sources
+- Getting Started: https://github.com/udacity/P1_Facial_Keypoints
+- Transfer Learning: https://debuggercafe.com/advanced-facial-keypoint-detection-with-pytorch/
