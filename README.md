@@ -63,7 +63,8 @@ An basic 'snapchat' filter of a googly orange was built using the key points whi
 
 ![image12](images/orange.gif)
 
+<br><br><br><br><br>
 
-#### Sources
+## Sources
 - Getting Started: https://github.com/udacity/P1_Facial_Keypoints
 - Transfer Learning: https://debuggercafe.com/advanced-facial-keypoint-detection-with-pytorch/
