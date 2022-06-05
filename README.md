@@ -2,7 +2,8 @@
 
 [//]: # (Image References)
 
-[image1]: /images/key_pts_example.png "Facial Keypoint Detection"
+
+[image1]: https://github.com/blueeagle100/facial_keypoints/images/key_pts_example.png
 
 ## Project Overview
 For this project we will use the youtube faces dataset to train a model to learn 68 distinct keypoints upon a face. The trained model is then used to create some interesting face filters, using the locations of the eyes, nose, mouth, and jawline. 
