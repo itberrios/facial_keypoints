@@ -4,7 +4,7 @@
 
 ![image1](images/key_pts_example.png) "Facial Keypoint Detection"
 ![image2](images/landmarks_numbered.jpg) "Numbered Keypoint Landmarks"
-<img src = "images/landmarks_numbered.jpg", width=100>
+<center><img src='images/landmarks_numbered.jpg' width=30% height=30%/></center>
 
 
 ## Project Overview
