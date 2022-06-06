@@ -31,7 +31,7 @@ The first 10 epochs of training were on lightly augmented data (i.e. minor color
 ![image3](images/keypoint_results/result_10_1.PNG)
 ![image4](images/keypoint_results/result_10_2.PNG)
 
-The final 50 epochs were trained on more heavily augmented data (i.e. larger color jitter, +/1 180 degree random rotations, resize and crop transforms likely to remove portions of faces). An example of a heavily augmented image is shown below.
+The final 50 epochs were trained on more heavily augmented data (i.e. larger color jitter, +/1 180 degree random rotations, resize and crop transforms likely to remove portions of faces). The purpose of this secondary training was to fine tune the model to generalize to a variety of image conditions and face angles. An example of a heavily augmented image is shown below.
 
 ![image5](images/heavily_augmented.PNG)
 
