@@ -21,7 +21,7 @@ This project is an extension of the Facial Keypoint project from Udacity's Compu
 ## Approaches
 
 #### Model 
-Some early experimenting with CNNs trained from scratch provided meager results and revealed that this is a fairly challenging problem. The next approach was to experiment with transfer learning. After some more experimenting, Resnet50 seemed to provide the best results, Resnet101 did not seem to provide any improvement. The only type of model used was a resnet wince it was able to provide adequate results on validation data and out of sample data from a webcam capture. The final resnet had it's fully connected layer completly replaced with 136 outputs for each of the keypoints. During training, layer 4, avg pool, and the fully connected layer were the only ones updated. Experimenting with other layer updates didn't seem to increase or decrease performance on the validation set.
+Some early experimenting with CNNs trained from scratch provided meager results and revealed that this is a fairly challenging problem. The next approach was to experiment with transfer learning. After some more experimenting, Resnet50 seemed to provide the best results, Resnet101 did not seem to provide any improvement. The only type of model used was a resnet since it was able to provide adequate results on validation data and out of sample data from a webcam capture. The final resnet had it's fully connected layer completly replaced with 136 outputs for each of the keypoints. During training, layer 4, avg pool, and the fully connected layer were the only ones updated. Experimenting with other layer updates didn't seem to increase or decrease performance on the validation set.
 
 #### Training
 The training data was augmented with rotations and color jitter to help the model generalize better, then the images were resized and randomly cropped to 224x224. To help the network train better, the images were normalized with Image Net mean and standard deviation, however the keypoint locations were not normalized. Experimenting with normalized keypoints may lead to better results and/or faster training, but this approach was not persued. 
@@ -64,7 +64,7 @@ In this case, the model tends to extend the jawline outside of the face, but fol
 
 ## Face filters
 
-An basic 'snapchat' filter of a googly orange was built using the key points which can be seen below. The flucations of the predicted facial landmarks are apparent as the orange and googly eyes change sizes.
+An basic 'snapchat' filter of a googly orange was built using the key points which can be seen below. The fluctuations of the predicted facial landmarks are apparent as the orange and googly eyes change sizes.
 
 ![image15](images/orange.gif)
 
